@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+}
+
+.App{
+  max-width: 1230px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.title{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  &__input{
+    width: 30%;
+  }
+  &__button{
+    width: 20%;
+  }
+}
